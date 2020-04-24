@@ -354,7 +354,7 @@ p {
 .team__wrap-girls {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -18px;
+  margin-right: -140px;
 }
 
 .team__girls {
@@ -599,9 +599,6 @@ footer {
   }
   .intro__img-wraper {
     width: 100%;
-  }
-  .team__wrap-girls {
-    width: 95vw;
   }
   .feedback__form {
     height: 553px;
