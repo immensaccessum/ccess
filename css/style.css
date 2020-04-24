@@ -596,6 +596,9 @@ footer {
   .intro__h1 {
     font-size: 9vw;
   }
+  .intro__img-wraper {
+    width: 100%;
+  }
   .feedback__form {
     height: 553px;
   }
