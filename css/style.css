@@ -70,6 +70,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   max-width: 1249px;
   margin: 0 auto 0 auto;
   background-color: #000000;
