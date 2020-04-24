@@ -71,12 +71,15 @@ p {
   justify-content: center;
   align-items: center;
   max-width: 1249px;
-  height: 90px;
   margin: 0 auto 0 auto;
   background-color: #000000;
 }
 
 .nav_link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
   padding: 34px 21px;
   font-family: "OpenSans Bold";
   color: white;
