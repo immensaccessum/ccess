@@ -181,9 +181,8 @@ p {
 }
 .services__right {
   display: flex;
-  flex: 1 1 50%;
+  flex: 1 1 45%;
   flex-wrap: wrap;
-  margin-right: -10px;
 }
 .services__item {
   flex: 1 1 50%;
@@ -354,9 +353,7 @@ p {
 .team__wrap-girls {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -140px;
 }
-
 .team__girls {
   position: relative;
   box-sizing: border-box;
@@ -364,7 +361,6 @@ p {
   margin: 0 18px 18px 0;
   background-color: #d4dce680;
 }
-
 .team__girls-h3 {
   position: absolute;
   bottom: 0;
@@ -588,6 +584,9 @@ footer {
   .feature__img {
     flex-basis: 50%;
   }
+  .team__right {
+  width: 100%;
+}
 }
 @media screen and (max-width: 760px) {
   .intro__text {
