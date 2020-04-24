@@ -1,4 +1,22 @@
 @font-face {
+  font-family: "OpenSans Regular";
+
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans Italic";
+
+  src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans SemiBold";
+
+  src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
   font-family: "OpenSans Bold";
 
   src: url(../fonts/OpenSans-Bold.ttf);
@@ -10,17 +28,6 @@
   src: url(../fonts/OpenSans-ExtraBold.ttf);
 }
 
-@font-face {
-  font-family: "OpenSans Regular";
-
-  src: url(../fonts/OpenSans-Regular.ttf);
-}
-
-@font-face {
-  font-family: "OpenSans Italic";
-
-  src: url(../fonts/OpenSans-Italic.ttf);
-}
 
 
 body {
@@ -120,12 +127,13 @@ p {
 .intro__text-p {
   max-width: 97%;
   margin-bottom: 54px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .intro__link {
   width: 227px;
   height: 55px;
+  font-family: "OpenSans Bold";
   color: white;
   background-color: red;
 }
@@ -165,12 +173,12 @@ p {
 .services__left-p {
   margin-top: 0;
   margin-bottom: 49px;
-  opacity: 0.8;
 }
 .services__left-link {
   width: 227px;
   height: 55px;
   margin-bottom: 70px;
+  font-family: "OpenSans Bold";
   color: red;
   text-decoration: none;
   border: 2px solid red;
@@ -196,12 +204,18 @@ p {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 24px;
-  font-family: "OpenSans Bold";
+  font-family: "OpenSans SemiBold";
+  opacity: 0.7;
 }
 
 .services__right-p {
   margin-top: 0;
-  opacity: 0.8;
+  opacity: 0.7;
+}
+.services__hr {
+  max-width: 1249px;
+  margin: 0 auto;
+  padding: 0 1vw;
 }
 /* --------- feature --------- */
 
@@ -222,6 +236,7 @@ p {
 .feature__p {
   max-width: 541px;
   margin: 0 auto 25px auto;
+  opacity: 0.7;
 }
 
 .feature__hr {
@@ -243,11 +258,11 @@ p {
 .feature__nav-link {
   margin: 0 27px;
   font-size: 22px;
-  font-family: "OpenSans Bold";
+  font-family: "OpenSans SemiBold";
   color: black;
   text-transform: uppercase;
   text-decoration: none;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .feature__nav-link:nth-child(1) {
@@ -291,7 +306,7 @@ p {
 
 .team__p {
   max-width: 475px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .team__hr {
@@ -323,6 +338,7 @@ p {
   margin-top: 4px;
   margin-bottom: 20px;
   font-size: 31px;
+  font-family: "OpenSans Bold";
   text-transform: uppercase;
   opacity: 0.8;
 }
@@ -330,7 +346,7 @@ p {
 .team__right-p {
   max-width: 80%;
   margin-bottom: 34px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .team__social {
@@ -344,6 +360,7 @@ p {
   font-family: "OpenSans Italic";
   color: black;
   text-decoration: none;
+  opacity: 0.8;
 }
 
 .team__wrap-girls {
@@ -364,6 +381,7 @@ p {
   width: 100%;
   margin: 0;
   padding: 6px 0;
+  font-family: "OpenSans Bold";
   text-align: center;
   color: white;
   text-transform: uppercase;
@@ -385,7 +403,11 @@ p {
   background-color: #2c2c2c;
 }
 
-.subscribe__h2,
+.subscribe__h2 {
+  font-family: "OpenSans Bold";
+  text-align: center;
+  color: white;
+}
 .subscribe__p {
   text-align: center;
   color: white;
@@ -395,7 +417,7 @@ p {
   margin-top: 0;
   margin-bottom: 22px;
   font-size: 42px;
-  font-family: "OpenSans ExtraBold";
+  font-family: "OpenSans Bold";
 }
 
 .subscribe__p {
@@ -429,6 +451,7 @@ p {
   width: 214px;
   height: 79px;
   font-size: 18px;
+  font-family: "OpenSans Bold";
   color: white;
   text-transform: uppercase;
   background-color: red;
@@ -462,7 +485,7 @@ p {
 .feedback__p {
   max-width: 640px;
   margin-bottom: 50px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .feedback__hr {
@@ -505,6 +528,7 @@ p {
 .feedback__left-send {
   width: 100%;
   height: 72px;
+  font-family: "OpenSans Bold";
   color: white;
   text-transform: uppercase;
   background-color: red;
@@ -517,13 +541,19 @@ p {
   height: 453px;
   margin-top: 55px;
   padding: 0 30px 0 76px;
-  color: white;
   background-color: rgb(44, 44, 44);
+}
+.feedback__right-wrap {
+  color: white;
+  opacity: 0.8;
 }
 .feedback__right-h2 {
   font-size: 18px;
   font-family: "OpenSans Bold";
   text-transform: uppercase;
+}
+.feedback__address > * {
+  font-style: normal;
 }
 /* --------- footer --------- */
 footer {
@@ -542,7 +572,7 @@ footer {
 }
 
 .footer__text {
-  color: white;
+  color: #b8b8b8;
 }
 
 .footer__logos {
