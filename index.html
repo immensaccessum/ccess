@@ -139,40 +139,48 @@
       <div class="subscribe">
         <h2 class="subscribe__h2">Design tips, tricks, and freebies. Delivered weekly.</h2>
         <p class="subscribe__p">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed d</p>
-        <div class="subscribe__wraper">
-          <div class="subscribe__form">Email Address...</div>
-          <a class="subscribe__buttom" href="#">subscribe</a>
-        </div>
+        <form class="subscribe__wraper" action="" method="GET">
+          <input class="subscribe__form" type="email" name="email" placeholder="Email Address...">
+          <button class="subscribe__buttom" type="submit">subscribe</button>
+        </form>
       </div>
     </div>
     <div class="feedback">
-      <div class="feedback__left">
-        <div class="feedback__text">
-          <h2 class="feedback__h2">Get in touch</h2>
-          <p class="feedback__p">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor
-            incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing
-            elit, sed do eiusmod tempor
-            incididunt ut labore et.</p>
-          <hr class="feedback__hr">
+          <div class="feedback__left">
+            <div class="feedback__text">
+              <h2 class="feedback__h2">Get in touch</h2>
+              <p class="feedback__p">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor
+                incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing
+                elit, sed do eiusmod tempor
+                incididunt ut labore et.</p>
+              <hr class="feedback__hr">
+            </div>
+            <form class="feedback__form" form action="" method="GET">
+              <input required class="feedback__left-name" type="text" name="Name" placeholder="Name">
+              <input required class="feedback__left-mail" type="email" name="email" placeholder="Your Mail">
+              <textarea required class="feedback__left-massage" type="text" name="text" placeholder="Type your message"></textarea>
+              <button class="feedback__left-send" type="submit">Send message</button>
+            </form>
+          </div>
+          <div class="feedback__right" id="contact">
+            <div class="feedback__right-wrap">
+              <h2 class="feedback__right-h2">Contact info</h2>
+              <address class="feedback__address">
+                <p>Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
+                <p>redwan@deviserweb.com</p>
+                <p>(+88) 017 617 46373</p>
+              </address>
+            </div>
+          </div>
         </div>
-        <div class="feedback__form">
-          <div class="feedback__left-name">Name</div>
-          <div class="feedback__left-mail">Your Mail</div>
-          <div class="feedback__left-massage">Type your message</div>
-          <a class="feedback__left-send" href="#">Send message</a>
-        </div>
-      </div>
-      <div class="feedback__right" id="contact">
-        <div class="feedback__right-wrap">
-          <h2 class="feedback__right-h2">Contact info</h2>
-          <address class="feedback__address">
-            <p>Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
-            <p>redwan@deviserweb.com</p>
-            <p>(+88) 017 617 46373</p>
-          </address>
-        </div>
-      </div>
-    </div>
+
+
+
+
+
+
+
+
   </main>
   <footer>
     <div class="footer">
