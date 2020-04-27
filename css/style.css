@@ -599,7 +599,7 @@ footer {
 
 @media screen and (max-width: 1286px) {
   .intro__h1 {
-    font-size: 4.8vw;
+    font-size: 4.5vw;
   }
   .feature__img {
     flex-basis: 30%;
